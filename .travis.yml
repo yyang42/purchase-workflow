@@ -14,8 +14,8 @@ python:
 
 env:
   - VERSION="8.0" LINT_CHECK="1"
-  - VERSION="8.0" ODOO_REPO="odoo/odoo" INCLUDE="testly" LINT_CHECK="0"
-  - VERSION="8.0" ODOO_REPO="OCA/OCB" INCLUDE="testly" LINT_CHECK="0"
+  - VERSION="8.0" ODOO_REPO="odoo/odoo" LINT_CHECK="0"
+  - VERSION="8.0" ODOO_REPO="OCA/OCB" LINT_CHECK="0"
 
   # - VERSION="8.0" ODOO_REPO="odoo/odoo" INCLUDE="purchase_rfq_bid_workflow" LINT_CHECK="0"
   # - VERSION="8.0" ODOO_REPO="OCA/OCB" INCLUDE="purchase_rfq_bid_workflow" LINT_CHECK="0"
